@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Digester {
     // Used to select hash/digest algorithm from provider
-    private static final String SHA256_ALG = "SHA-512/256";
+    private static final String SHA256_ALG = "SHA-512";
 
     public static byte[] digest(byte[] data) throws NoSuchAlgorithmException {
         CryptoProvider.setupIfNeeded();
